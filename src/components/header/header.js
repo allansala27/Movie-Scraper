@@ -15,9 +15,7 @@ export default class Header extends Component {
     			</Navbar.Header>
     			<Navbar.Collapse>
       				<Nav>
-        				<NavItem eventKey={1} href="#">Notes</NavItem>
-                        <NavItem eventKey={2} href="#">Saved Movies</NavItem>
-        				<NavItem eventKey={3} ><Button bsStyle="danger">Scrape Movies</Button></NavItem>
+        				<NavItem eventKey={1} ><Button id="scrape-button" bsStyle="danger" >Scrape Movies</Button></NavItem>
       				</Nav>
     			</Navbar.Collapse>
   			</Navbar>
