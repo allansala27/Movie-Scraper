@@ -3,6 +3,7 @@ import {Grid, Row, Col, Panel} from 'react-bootstrap';
 import Header from './header/header';
 import Section1 from './section1/section1';
 import Section2 from './section2/section2';
+import MovieList from './movielist/movielist.js';
 
 
 class App extends Component {
@@ -11,7 +12,7 @@ class App extends Component {
             <div className = "App">
             	<Header />
             	<Section1 sectionTitle="Scraped movies">
-            		scraped movies go here
+            		<MovieList />
             	</Section1>
                 <Grid>
                     <Row className="show-grid">

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Navbar, NavItem, NavDropdown, MenuItem, Nav, Button} from 'react-bootstrap';
-
+// import scrape from './js/app';
 
 export default class Header extends Component {
 	render(){
@@ -15,7 +15,7 @@ export default class Header extends Component {
     			</Navbar.Header>
     			<Navbar.Collapse>
       				<Nav>
-        				<NavItem eventKey={1} ><Button id="scrape-button" bsStyle="danger" >Scrape Movies</Button></NavItem>
+        				<NavItem><Button id="scrape-button" bsStyle="danger">Scrape Movies</Button></NavItem>
       				</Nav>
     			</Navbar.Collapse>
   			</Navbar>
